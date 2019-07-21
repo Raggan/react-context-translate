@@ -21,6 +21,7 @@ class App extends Component {
             onClick={() => this.onLanguageChange("german")}
           />
         </div>
+        <CreateUser />
       </div>
     );
   }
